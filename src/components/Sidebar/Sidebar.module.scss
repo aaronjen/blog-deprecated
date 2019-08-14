@@ -11,8 +11,16 @@
 
 @include breakpoint-sm {
     .sidebar {
+        min-height: 100vh;
+        position: sticky;
+        top: 0px;
+        display: flex;
+        flex-direction: column;
         lost-column: 5/12;
         &__inner {
+            display: flex;
+            flex-direction: column;
+            flex: 1;
             padding: 30px 20px 0;
             &:after {
                 background: $color-gray-border;
