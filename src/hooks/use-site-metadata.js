@@ -8,16 +8,16 @@ const useSiteMetadata = () => {
         site {
           siteMetadata {
             author {
-              name
+            name
               bio
               photo
               contacts {
                 email
-                telegram
-                twitter
+                # telegram
+                # twitter
                 github
-                rss
-                vkontakte
+                # rss
+                # vkontakte
               }
             }
             menu {

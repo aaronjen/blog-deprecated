@@ -3,9 +3,9 @@
 module.exports = {
   url: 'https://lumen.netlify.com',
   pathPrefix: '/',
-  title: 'Blog by John Doe',
-  subtitle: 'Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam. Sed arcu.',
-  copyright: '© All rights reserved.',
+  title: 'Blog by Aaron Jen',
+  subtitle: '網頁技術筆記與工作心得',
+  copyright: '© 2019 Ching-Wei Jen All rights reserved.',
   disqusShortname: '',
   postsPerPage: 4,
   googleAnalyticsId: 'UA-73379983-2',
@@ -25,14 +25,15 @@ module.exports = {
     }
   ],
   author: {
-    name: 'John Doe',
+    name: '任精瑋 Aaron Jen',
+    nickName: 'Aaron Jen',
     photo: '/photo.jpg',
-    bio: 'Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam. Sed arcu.',
+    bio: '網頁技術筆記與工作心得',
     contacts: {
-      email: '#',
+      email: 'aaron821124@gmail.com',
       telegram: '#',
       twitter: '#',
-      github: '#',
+      github: 'bugarma',
       rss: '#',
       vkontakte: '#'
     }
