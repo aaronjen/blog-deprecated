@@ -15,7 +15,7 @@ description: "簡單介紹一下自己用到或看到覺得好用的開發工具
 在 demo 自己實作的程式時，常常需要分享寫出來的 code，但在製作投影片時，不像網頁或是文字編輯器的環境，有 syntax highlight 的幫忙，只能貼上跑版的純文字來炸別人眼睛，或是擷取文字編輯器的畫面。這些做法不是麻煩，就是不美觀。所以就找了幾個好用的工具來幫忙處理這些瑣事。
 
 ### [1. Carbon](https://carbon.now.sh/)
-![carbon photo](./images/carbon.svg)
+![carbon photo](./images/carbon.png)
 <p style="text-align: center;margin-top: -20px;">
   (image from <a href="https://carbon.now.sh/">carbon</a>)
 </p>
