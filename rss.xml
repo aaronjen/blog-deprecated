@@ -1,7 +1,41 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Blog by Aaron Jen]]></title><description><![CDATA[網頁技術筆記與工作心得]]></description><link>https://lumen.netlify.com</link><generator>RSS for Node</generator><lastBuildDate>Mon, 19 Aug 2019 15:54:27 GMT</lastBuildDate><item><title><![CDATA[開發工具分享 Part 1.]]></title><description><![CDATA[簡單介紹一下自己用到或看到覺得好用的開發工具，這篇分享一下 code sharing 的工具]]></description><link>https://lumen.netlify.com/posts/develop-tool-part1/</link><guid isPermaLink="false">https://lumen.netlify.com/posts/develop-tool-part1/</guid><pubDate>Mon, 19 Aug 2019 12:00:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;strong&gt;簡單介紹一下自己用到或看到覺得好用的開發工具，這篇分享一下 code sharing 的工具&lt;/strong&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Blog by Aaron Jen]]></title><description><![CDATA[網頁技術筆記與工作心得]]></description><link>https://lumen.netlify.com</link><generator>RSS for Node</generator><lastBuildDate>Mon, 19 Aug 2019 15:57:48 GMT</lastBuildDate><item><title><![CDATA[開發工具分享 Part 1.]]></title><description><![CDATA[簡單介紹一下自己用到或看到覺得好用的開發工具，這篇分享一下 code sharing 的工具]]></description><link>https://lumen.netlify.com/posts/develop-tool-part1/</link><guid isPermaLink="false">https://lumen.netlify.com/posts/develop-tool-part1/</guid><pubDate>Mon, 19 Aug 2019 12:00:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;strong&gt;簡單介紹一下自己用到或看到覺得好用的開發工具，這篇分享一下 code sharing 的工具&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;在 demo 自己實作的程式時，常常需要分享寫出來的 code，但在製作投影片時，不像網頁或是文字編輯器的環境，有 syntax highlight 的幫忙，只能貼上跑版的純文字來炸別人眼睛，或是擷取文字編輯器的畫面。這些做法不是麻煩，就是不美觀。所以就找了幾個好用的工具來幫忙處理這些瑣事。&lt;/p&gt;
 &lt;h3 id=&quot;1-carbon&quot;&gt;&lt;a href=&quot;#1-carbon&quot; aria-label=&quot;1 carbon permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;&lt;a href=&quot;https://carbon.now.sh/&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;1. Carbon&lt;/a&gt;&lt;/h3&gt;
-&lt;p&gt;&lt;img src=&quot;/e594f785dc51d8e5fb3fa9b0ecf4bac8/carbon.svg&quot; alt=&quot;carbon photo&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 960px;&quot;
+    &gt;
+      &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 43.99999999999999%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAJCAYAAAAywQxIAAAACXBIWXMAAAsSAAALEgHS3X78AAABbElEQVQoz62RyU7DMBCGU3FuSaSCGpvEWbxm6abe4BGQEK/DU/AkLDcOIC4gQU+8DnVgGLtQ2hsHLH2aP+PMr/FMEPzf6fX7/V5wzLOLyYLdHVJ6RQm9oXQLQjaaoCaErvnNXVMHpbfD4UHlbTnLnpragDYStJYgpUA4CIFRa1Coi6IAY5S/V2p9X3IBqmrwHwNcSojC8NQbpgm7V1xB06h3IbjlZWElRiyyXCqrjbIVYoz0CCms0MZKU/tYcLFKUwZhGJ65ZwcsYY/TegKzadthMczmEzSvoCxLSNPUw77jBsaAsczpT+TD5aIoWhvGcfxQqxrGdbvSdd2180VnMAqpENEpxTt8ltd5yTs065LkCEl+sM5w0yEmno00IKQG7ueh/MxYlkGG5DnGPPfawXx3u7g8dnjuZxjH5BK39IYbe8ENLnGDSxLHy3ib0Wj3e5dXVzsYDE58h84TcSsfI+034z/QblEg+3t4vgB1pKoBOZaaYwAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;picture&gt;
+        &lt;source
+          srcset=&quot;/static/d485ae8f1ed788332bc2e1970c3866dd/01472/carbon.webp 240w,
+/static/d485ae8f1ed788332bc2e1970c3866dd/222bd/carbon.webp 480w,
+/static/d485ae8f1ed788332bc2e1970c3866dd/620b9/carbon.webp 960w,
+/static/d485ae8f1ed788332bc2e1970c3866dd/28063/carbon.webp 1440w,
+/static/d485ae8f1ed788332bc2e1970c3866dd/5ea2f/carbon.webp 1750w&quot;
+          sizes=&quot;(max-width: 960px) 100vw, 960px&quot;
+          type=&quot;image/webp&quot;
+        /&gt;
+        &lt;source
+          srcset=&quot;/static/d485ae8f1ed788332bc2e1970c3866dd/0783d/carbon.png 240w,
+/static/d485ae8f1ed788332bc2e1970c3866dd/782f4/carbon.png 480w,
+/static/d485ae8f1ed788332bc2e1970c3866dd/f570d/carbon.png 960w,
+/static/d485ae8f1ed788332bc2e1970c3866dd/8d0ff/carbon.png 1440w,
+/static/d485ae8f1ed788332bc2e1970c3866dd/da2f0/carbon.png 1750w&quot;
+          sizes=&quot;(max-width: 960px) 100vw, 960px&quot;
+          type=&quot;image/png&quot;
+        /&gt;
+        &lt;img
+          class=&quot;gatsby-resp-image-image&quot;
+          src=&quot;/static/d485ae8f1ed788332bc2e1970c3866dd/f570d/carbon.png&quot;
+          alt=&quot;carbon photo&quot;
+          title=&quot;carbon photo&quot;
+        /&gt;
+      &lt;/picture&gt;
+    &lt;/span&gt;&lt;/p&gt;
 &lt;p style=&quot;text-align: center;margin-top: -20px;&quot;&gt;
   (image from &lt;a href=&quot;https://carbon.now.sh/&quot;&gt;carbon&lt;/a&gt;)
 &lt;/p&gt;
