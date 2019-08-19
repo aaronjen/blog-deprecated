@@ -1,4 +1,97 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Blog by Aaron Jen]]></title><description><![CDATA[網頁技術筆記與工作心得]]></description><link>https://lumen.netlify.com</link><generator>RSS for Node</generator><lastBuildDate>Sun, 18 Aug 2019 04:55:12 GMT</lastBuildDate><item><title><![CDATA[React Native & Flutter 簡單比較]]></title><description><![CDATA[在這篇文章中不會有完整的比較，只是分享一些使用上遇到的情境與問題，文章內容單純是個人意見，有不同的想法歡迎來討論]]></description><link>https://lumen.netlify.com/posts/react-native-vs-flutter/</link><guid isPermaLink="false">https://lumen.netlify.com/posts/react-native-vs-flutter/</guid><pubDate>Fri, 19 Jul 2019 12:00:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;strong&gt;在這篇文章中不會有完整的比較，只是分享一些使用上遇到的情境與問題，文章內容單純是個人意見，有不同的想法歡迎來討論&lt;/strong&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Blog by Aaron Jen]]></title><description><![CDATA[網頁技術筆記與工作心得]]></description><link>https://lumen.netlify.com</link><generator>RSS for Node</generator><lastBuildDate>Mon, 19 Aug 2019 15:54:27 GMT</lastBuildDate><item><title><![CDATA[開發工具分享 Part 1.]]></title><description><![CDATA[簡單介紹一下自己用到或看到覺得好用的開發工具，這篇分享一下 code sharing 的工具]]></description><link>https://lumen.netlify.com/posts/develop-tool-part1/</link><guid isPermaLink="false">https://lumen.netlify.com/posts/develop-tool-part1/</guid><pubDate>Mon, 19 Aug 2019 12:00:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;strong&gt;簡單介紹一下自己用到或看到覺得好用的開發工具，這篇分享一下 code sharing 的工具&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;在 demo 自己實作的程式時，常常需要分享寫出來的 code，但在製作投影片時，不像網頁或是文字編輯器的環境，有 syntax highlight 的幫忙，只能貼上跑版的純文字來炸別人眼睛，或是擷取文字編輯器的畫面。這些做法不是麻煩，就是不美觀。所以就找了幾個好用的工具來幫忙處理這些瑣事。&lt;/p&gt;
+&lt;h3 id=&quot;1-carbon&quot;&gt;&lt;a href=&quot;#1-carbon&quot; aria-label=&quot;1 carbon permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;&lt;a href=&quot;https://carbon.now.sh/&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;1. Carbon&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;&lt;img src=&quot;/e594f785dc51d8e5fb3fa9b0ecf4bac8/carbon.svg&quot; alt=&quot;carbon photo&quot;&gt;&lt;/p&gt;
+&lt;p style=&quot;text-align: center;margin-top: -20px;&quot;&gt;
+  (image from &lt;a href=&quot;https://carbon.now.sh/&quot;&gt;carbon&lt;/a&gt;)
+&lt;/p&gt;
+&lt;p&gt;Carbon 可以把你的 code 轉成 png、svg，還可以建立 url，甚至 embed 進網頁。&lt;/p&gt;
+&lt;p&gt;使用方法就是點進網頁後把要分享的 code 貼上去，並調整成想要的樣式，之後 export 就可以選擇格式輸出。&lt;/p&gt;
+&lt;h3 id=&quot;2-polacode&quot;&gt;&lt;a href=&quot;#2-polacode&quot; aria-label=&quot;2 polacode permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;&lt;a href=&quot;https://github.com/octref/polacode&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;2. Polacode&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;&lt;img src=&quot;/b2f6a95ac83c04379158cbbb131c52fc/polacode.gif&quot; alt=&quot;polacode photo&quot;&gt;&lt;/p&gt;
+&lt;p style=&quot;text-align: center;margin-top: -20px;&quot;&gt;
+  (image from &lt;a href=&quot;https://marketplace.visualstudio.com/items?itemName=pnp.polacode&quot;&gt;polacode&lt;/a&gt;)
+&lt;/p&gt;
+&lt;p&gt;Polacode 是 VSCode 的一個 extension，可以說是 Carbon 的延伸版，Polacode 的作者也說他受 Carbon 啟發。&lt;/p&gt;
+&lt;p&gt;功能上比 Carbon 更好用，是直接從文字編輯器輸出，可以直接拖拉改變輸出樣式。如果平常就是使用 VSCode 的話，十分建議安裝使用。&lt;/p&gt;
+&lt;h3 id=&quot;3-revealjs&quot;&gt;&lt;a href=&quot;#3-revealjs&quot; aria-label=&quot;3 revealjs permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;&lt;a href=&quot;https://revealjs.com/#/&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;3. reveal.js&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 960px;&quot;
+    &gt;
+      &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 53.06406685236769%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAALCAYAAAB/Ca1DAAAACXBIWXMAABYlAAAWJQFJUiTwAAABt0lEQVQoz3WTzVLqQBCFeQFIuIFMfi0lBKMXEFIICiEQC7CKogo2WLK44brzKV34YsfusRLj3+JU90wmZ77uTkqmaaIowzBktG0blmVJcZ4953V+jiQod4VASmemrRZKP5nVajWUy2WoqopKpSLFeyxFUfJzWaxTPKGLnlv+u2GRStd1hGGINE2xXq+x3+9xOBwwGAzQ6/Ww3W5z4ozWYgii9LwGSkUqFtN0u10cj0esVivsHx6QUj6bzTCJIux2O9TrdVSrVSkGkFBs2Gy+E/LmcDhEHMdIkgTj8Viup9EEEeW3NyPan8t1PI0k+WKxwGazQafTkRcwWNPzPkr2fR/tdhtBEKDf7yOZzxHdLRFOElyNIkzimYwsLp2r4HONRgOC6IQs2fsomSn5JpYsg/pTVVRougHddGCYNoTl0AC4PZpsj6Zp0ojfzw2LQ5GDISmkRzJ9pTL/n3nQL/s4Da7gNi/yQXzVJ8OibDJXSI+kl+US/1wX+ukZXMeR1F8BsvxXw7wFFFX+/ohUiEzim2FOyENpnf/8YWf5X5rgDU14EF4juH+CM5rD0P5I0k+m/MdQb/3gEm8+jDQ35c1zoAAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;picture&gt;
+        &lt;source
+          srcset=&quot;/static/4773115a502cbc7a336254d3daaa1f72/01472/revealjs.webp 240w,
+/static/4773115a502cbc7a336254d3daaa1f72/222bd/revealjs.webp 480w,
+/static/4773115a502cbc7a336254d3daaa1f72/620b9/revealjs.webp 960w,
+/static/4773115a502cbc7a336254d3daaa1f72/28063/revealjs.webp 1440w,
+/static/4773115a502cbc7a336254d3daaa1f72/34ef4/revealjs.webp 1920w,
+/static/4773115a502cbc7a336254d3daaa1f72/c9a76/revealjs.webp 2872w&quot;
+          sizes=&quot;(max-width: 960px) 100vw, 960px&quot;
+          type=&quot;image/webp&quot;
+        /&gt;
+        &lt;source
+          srcset=&quot;/static/4773115a502cbc7a336254d3daaa1f72/0783d/revealjs.png 240w,
+/static/4773115a502cbc7a336254d3daaa1f72/782f4/revealjs.png 480w,
+/static/4773115a502cbc7a336254d3daaa1f72/f570d/revealjs.png 960w,
+/static/4773115a502cbc7a336254d3daaa1f72/8d0ff/revealjs.png 1440w,
+/static/4773115a502cbc7a336254d3daaa1f72/a987b/revealjs.png 1920w,
+/static/4773115a502cbc7a336254d3daaa1f72/97d83/revealjs.png 2872w&quot;
+          sizes=&quot;(max-width: 960px) 100vw, 960px&quot;
+          type=&quot;image/png&quot;
+        /&gt;
+        &lt;img
+          class=&quot;gatsby-resp-image-image&quot;
+          src=&quot;/static/4773115a502cbc7a336254d3daaa1f72/f570d/revealjs.png&quot;
+          alt=&quot;revealjs photo&quot;
+          title=&quot;revealjs photo&quot;
+        /&gt;
+      &lt;/picture&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;Reveal.js 是提供網頁製作投影片的 Framework。以網頁為基礎，提供了大量的客製空間，網頁做的到的事情他都可以做的到，可以說是功能十分強大。&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 960px;&quot;
+    &gt;
+      &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 53.06406685236769%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAALCAYAAAB/Ca1DAAAACXBIWXMAABYlAAAWJQFJUiTwAAAB0klEQVQoz3WSy27bMBBF/QVFF7JNvS1KJPWiJFKG0zouvCi8TvcJCnjX//+B2yFrx1WLLC6GpDiHdzSzCsMQjDG4+K/ceZLEiKLIr7fbzX93tqR0u8XPOMY3KbG6w3wCycUgCHA+n3G9XnG5XPD8fMLLyw+8vr6h77X/ztjDyJpiRo/+kgKrd4dRiCJPwfMMuyKHECWmaYBUFRQv0HUSemzB+Q5pFiPLEx9ZyBARIyCXZckfwCSNMbQC+1rCGIXRCvRaou0qdC2JYt0U9MAOqi78WsgdObxV6IBVtQS6xJOqYaYGg6kx2Y6gCnpQMLbHMDYeeIdWIvcO/b8kYFWWD2BKwLotoRXHU9/CUHl708HOHcE6HOYBE1Xg7jSkOzD8C1gugQkaKqtVBU66x3HUOPQNxlGQ4xaHw4T9rL3LnhzXDb8Bw4+Asb/U0MsOKlUOLlKUIqNEilVC65SalUHKFEq5xi1LXgDdvHVdTVB5k/D7P2eCypRegppWKAVOyqn7IfsQmNCYGFhrSTPmecbxeKRSn6jrFuMwwhqDWlsk+isy/QUxVw8gqRJqOdjrdUBa++iGV5GLebbUIIvq+xvYfMLm8ycakQ3YJvCj8p4fxeS+xW853jXCncHNvAAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;picture&gt;
+        &lt;source
+          srcset=&quot;/static/723a739379011c19c973baf0a4f6ce14/01472/revealjs2.webp 240w,
+/static/723a739379011c19c973baf0a4f6ce14/222bd/revealjs2.webp 480w,
+/static/723a739379011c19c973baf0a4f6ce14/620b9/revealjs2.webp 960w,
+/static/723a739379011c19c973baf0a4f6ce14/28063/revealjs2.webp 1440w,
+/static/723a739379011c19c973baf0a4f6ce14/34ef4/revealjs2.webp 1920w,
+/static/723a739379011c19c973baf0a4f6ce14/c9a76/revealjs2.webp 2872w&quot;
+          sizes=&quot;(max-width: 960px) 100vw, 960px&quot;
+          type=&quot;image/webp&quot;
+        /&gt;
+        &lt;source
+          srcset=&quot;/static/723a739379011c19c973baf0a4f6ce14/0783d/revealjs2.png 240w,
+/static/723a739379011c19c973baf0a4f6ce14/782f4/revealjs2.png 480w,
+/static/723a739379011c19c973baf0a4f6ce14/f570d/revealjs2.png 960w,
+/static/723a739379011c19c973baf0a4f6ce14/8d0ff/revealjs2.png 1440w,
+/static/723a739379011c19c973baf0a4f6ce14/a987b/revealjs2.png 1920w,
+/static/723a739379011c19c973baf0a4f6ce14/97d83/revealjs2.png 2872w&quot;
+          sizes=&quot;(max-width: 960px) 100vw, 960px&quot;
+          type=&quot;image/png&quot;
+        /&gt;
+        &lt;img
+          class=&quot;gatsby-resp-image-image&quot;
+          src=&quot;/static/723a739379011c19c973baf0a4f6ce14/f570d/revealjs2.png&quot;
+          alt=&quot;reveal.js photo&quot;
+          title=&quot;reveal.js photo&quot;
+        /&gt;
+      &lt;/picture&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;以 code sharing 的角度來看，Reveal.js 使用 highlight.js 來提供 syntax highlight，所以只要用 Reveal.js 來做投影片就不用擔心 code 沒有上色不好看。&lt;/p&gt;
+&lt;p&gt;如果喜歡寫 code，想用 html &amp;#x26; javascript 來控制投影片，可以試試看 Reveal.js。此外 Reveal.js 也有提供類似 google slide 的線上編輯網頁，給不會寫 code 或習慣用 GUI 的使用者，都可以去參考使用看看。&lt;/p&gt;</content:encoded></item><item><title><![CDATA[React Native & Flutter 簡單比較]]></title><description><![CDATA[在這篇文章中不會有完整的比較，只是分享一些使用上遇到的情境與問題，文章內容單純是個人意見，有不同的想法歡迎來討論]]></description><link>https://lumen.netlify.com/posts/react-native-vs-flutter/</link><guid isPermaLink="false">https://lumen.netlify.com/posts/react-native-vs-flutter/</guid><pubDate>Fri, 19 Jul 2019 12:00:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;strong&gt;在這篇文章中不會有完整的比較，只是分享一些使用上遇到的情境與問題，文章內容單純是個人意見，有不同的想法歡迎來討論&lt;/strong&gt;&lt;/p&gt;
 &lt;hr&gt;
 &lt;p&gt;&lt;strong&gt;先歸納一些總結&lt;/strong&gt;：&lt;br&gt;
 &lt;strong&gt;效能方面&lt;/strong&gt;：Flutter 可能勝出但沒有到真的很明顯，畢竟兩者都可以產品化。&lt;br&gt;
