@@ -1,31 +1,31 @@
+if: branch = dev
+
 language: node_js
 node_js:
   - '10'
 install:
   - npm install -g codecov
-cache:
-  directories:
-    - node_modules
+script:
+  - yarn install
+  - yarn lint
+  - yarn test:coverage --runInBand --no-cache
+  - yarn test --runInBand --no-cache
+# deploy:
+#   provider: pages
+#   skip_cleanup: true
+#   github_token: $GITHUB_TOKEN  # Set in the settings page of your repository, as a secure variable
+#   local_dir: /public
+#   target_branch: master
+# cache:
+#   directories:
+#     - node_modules
 
-job:
-  include:
-    - stage: Testing
-      name: Testing
-      script:
-        - yarn install
-        - yarn lint
-        - yarn test:coverage --runInBand --no-cache
-        - yarn test --runInBand --no-cache
-        - codecov
-      on:
-        branch: dev
-    - stage: Deploy
-      name: Deploy
-        deploy:
-          provider: pages
-          skip_cleanup: true
-          github_token: $GITHUB_TOKEN  # Set in the settings page of your repository, as a secure variable
-          local_dir: /public
-          target_branch: master
-          on:
-            branch: dev
+# jobs:
+#   include:
+#     - stage: Testing
+      
+#         # - codecov
+#     - stage: Deploy
+      
+#         # on:
+#         #   branch: dev
