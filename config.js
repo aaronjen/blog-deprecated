@@ -4,7 +4,7 @@ module.exports = {
   url: 'https://lumen.netlify.com',
   pathPrefix: '/',
   title: 'Blog by Aaron Jen',
-  subtitle: '網頁技術筆記與工作心得',
+  subtitle: '任精瑋的部落格，紀錄網頁相關技術文章，分享工作與 Side Project 上的實作心得。主要使用的技術為 React 與 node.js。',
   copyright: '© 2019 Ching-Wei Jen All rights reserved.',
   disqusShortname: '',
   postsPerPage: 4,
